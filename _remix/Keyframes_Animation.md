@@ -1,6 +1,6 @@
 ---
 layout: single
-title: CSS Animation
+title: Keyframes Css Animation
 header: no
 categories:
   - css
