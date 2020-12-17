@@ -19,10 +19,10 @@ excerpt: 'Σχεδιασμός και κατασκευή συνεργατικώ�
 
   {% assign random = site.time | date: "%s%N" | modulo: site.gallery.size %}
 
-  {% include feature_col.html id="case-study" type="center" index=random %}
+  {% include twitter-posts.html content="p17papp1" type="center" index=random %}
 
   {% assign random = site.time | date: "%s%N" | modulo: site.case-study.size %}
 
-  {% include twitter-posts.html content="p17papp1" type="right" index=random %}
+  {% include feature_col.html id="case-study" type="right" index=random %}
 
 <div>
